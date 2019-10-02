@@ -57,3 +57,22 @@ nav .nav-links {
 .nav-link a {
   text-decoration: none;
 }
+
+
+.social-media {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+
+.icon1 {
+  flex: 1;
+}
+
+.icon2 {
+  flex: 1;
+}
+
+i.fab.fa-linkedin {
+  height: 25px;
+}
