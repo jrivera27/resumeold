@@ -16,6 +16,9 @@ body {
 
 }
 
+
+/* Beggining of Header section */
+
 header {
   display: flex;
   width: 90%;
@@ -42,6 +45,10 @@ h4 {
   align-items: center;
 }
 
+/* End of Header section */
+
+/*Beggining of Nav section */
+
 nav {
   flex: 2;
 
@@ -65,6 +72,9 @@ nav .nav-links {
   text-decoration: none;
 }
 
+/* End of Nav Section */
+
+/* Beggining of about me section */
 
 
 .about-me1 {
@@ -102,6 +112,9 @@ nav .nav-links {
   
 }
 
+/* end of about me section */
+
+/* Beggining of technical experience section */
 
 .technical-experience {
   justify-items: space-between;
@@ -115,14 +128,12 @@ nav .nav-links {
 
 .tech h4 {
   flex-direction: row;
-  border: 3px solid blue;
 }
 
 
 .technical-experience1 ul {
   width: 100%;
   height: 325px;
-  border: 3px solid red;
   flex-wrap: wrap;
   align-items: baseline;
   margin: 10px;
@@ -132,9 +143,43 @@ nav .nav-links {
 .technical-experience2 ul {
   width: 100%;
   height: 325px;
-  border: 3px solid green;
   flex-wrap: wrap;
   margin: 10px;
-  
-  
+}
+
+/* End of Technical Experience section */
+
+
+/* Beggining of Certifications section */
+
+.cert {
+  margin: 25px 0px;
+}
+
+.certifications {
+  display: flex;
+  flex-flow: row no-wrap;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 201, 204);
+  justify-items: space-between;
+  column-gap: 50px;
+}
+
+.cert-image1 img {
+  width: auto;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.cert-image2 img {
+  width: auto;
+  justify-content: center;
+}
+
+.cert-image3 img {
+  width: auto;
+  justify-content: flex-end;
 }
