@@ -3,10 +3,17 @@
   padding: 0px;
   box-sizing: border-box;
 }
+* h4 {
+  text-align: center;
+  margin-top: 50px;
+  
+}
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: gray;
+  color: rgb(19, 18, 18);
+  width: 1366px;
+
 }
 
 header {
@@ -59,20 +66,40 @@ nav .nav-links {
 }
 
 
-.social-media {
+
+.about-me1 {
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.article1 {
+  margin-top: 25px;
   display: flex;
-  height: 100px;
-  width: 100px;
+  flex-flow: column no-wrap;
+  width: auto;
+  height: 500px;
+  background-color: rgb(197, 201, 204);
 }
 
-.icon1 {
-  flex: 1;
+
+.my-image img{
+  border-radius: 50%;
+  
+  padding: 75px;
+  
 }
 
-.icon2 {
-  flex: 1;
+.my-description {
+  width: 70%;
+  height: 150px;
+  margin: 5px;
+  padding: 25px;
+  font-size: 16px;
+  letter-spacing: .1rem;
+  align-self: center;
+  flex-wrap: wrap;
+  order: 2;
+  
 }
 
-i.fab.fa-linkedin {
-  height: 25px;
-}
