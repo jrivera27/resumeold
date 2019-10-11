@@ -58,13 +58,18 @@ h4 {
 
 nav {
   flex: 2;
+
 }
+
 
 
 
 nav .nav-links {
   display: flex;
-  
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  scroll-behavior: auto;
 }
 
 .nav-links .nav-link {
@@ -73,12 +78,14 @@ nav .nav-links {
   /*color: #5f5f79;*/
   padding: 0px 10px;
   
+  
 }
 
 .nav-link a {
   text-decoration: none;
   background-color: transparent;
   color: grey;
+  
 }
 
 .nav-link a:hover {
