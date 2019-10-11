@@ -18,7 +18,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: rgb(19, 18, 18);
-  width: 1366px;
+  width: auto;
 
 }
 
@@ -31,6 +31,7 @@ header {
   height: 10vh;
   margin: auto;
   align-items: center;
+  
 }
 
 .logo-container,.nav-links {
@@ -57,8 +58,9 @@ h4 {
 
 nav {
   flex: 2;
-
 }
+
+
 
 nav .nav-links {
   display: flex;
@@ -68,7 +70,6 @@ nav .nav-links {
 .nav-links .nav-link {
   justify-content: space-between;
   list-style: none;
-  color: grey;
   /*color: #5f5f79;*/
   padding: 0px 10px;
   
@@ -76,6 +77,16 @@ nav .nav-links {
 
 .nav-link a {
   text-decoration: none;
+  background-color: transparent;
+  color: grey;
+}
+
+.nav-link a:hover {
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 /* End of Nav Section */
@@ -115,6 +126,7 @@ nav .nav-links {
   align-self: center;
   flex-wrap: wrap;
   order: 2;
+  text-align: center;
   
 }
 
@@ -191,6 +203,10 @@ nav .nav-links {
   justify-content: flex-end;
 }
 
+/* end of certification section */
+
+/* beggining of education section */
+
 .edu h4 {
   flex-direction: row;
   margin-top: 50px;
@@ -206,7 +222,67 @@ nav .nav-links {
   align-items: center;
 }
 
-.education ol {
-  border: 3px solid blue;
+/* End of Education section */
+
+/*Begging of work history */
+
+.workhis h4 {
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.my-work-history {
+  display: flex;
+  flex-flow: row no-wrap;
+  width: 100%;
+  height: 3000px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 201, 204);
+  justify-content: space-around;
+}
+
+.work-history ul {
+  margin-top: 50px;
+
+}
+
+.work-history h3 {
+  border: 3px solid orange;
+  text-align: center;
   
+}
+
+.work-history ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+/*End of work history */
+
+.social-media {
+  display: flex;
+  flex-flow: row no-wrap;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.icon1:hover, .icon2:hover,
+.icon3:hover, .icon5:hover
+.icon5:hover {
+  background-color: orange;
+}
+
+.icon4 h5 {
+  font-size: 1.1em;
+}
+
+
+.icon5 h5 {
+  font-size: 1em;
 }
