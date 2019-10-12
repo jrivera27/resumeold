@@ -67,8 +67,6 @@ nav {
 }
 
 
-
-
 nav .nav-links {
   display: flex;
   overflow: hidden;
@@ -106,6 +104,7 @@ nav .nav-links {
 /* Beggining of about me section */
 
 
+
 .about-me1 {
   align-items: center;
   margin-top: 50px;
@@ -113,7 +112,7 @@ nav .nav-links {
 }
 
 .article1 {
-  margin-top: 25px;
+  margin-top: 150px;
   display: flex;
   flex-flow: column no-wrap;
   width: auto;
@@ -155,6 +154,8 @@ nav .nav-links {
   padding: 50px;
   column-gap: 15px;
   justify-items: space-evenly;
+  margin-top: 150px;
+  
 }
 
 .tech h4 {
@@ -276,25 +277,30 @@ nav .nav-links {
   display: flex;
   flex-flow: row no-wrap;
   width: 100%;
-  height: 250px;
+  height: 800px;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
 }
 
-
-
-.icon1:hover, .icon2:hover,
-.icon3:hover, .icon5:hover
-.icon5:hover {
-  background-color: orange;
+i.fas.fa-mobile-alt.fa-4x {
+  padding: 35px;
 }
+
 
 .icon4 h5 {
   font-size: 1.1em;
+  text-align: center;
+  
 }
+
+.icon5 i.fas.fa-envelope-square.fa-4x {
+  padding: 35px;
+}
+
 
 
 .icon5 h5 {
   font-size: 1em;
+  text-align: left;
 }
