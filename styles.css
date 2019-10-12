@@ -155,7 +155,9 @@ nav .nav-links {
   column-gap: 15px;
   justify-items: space-evenly;
   margin-top: 150px;
-  
+  font-size: 1.2em;
+  background-color: rgb(197, 201, 204);
+  line-height: 2em;
 }
 
 .tech h4 {
