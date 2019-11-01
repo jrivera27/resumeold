@@ -346,7 +346,77 @@ i.fas.fa-mobile-alt.fa-4x {
   
   }
   
-  @media screen and (max-width: 479px) {
+   
+  @media screen and (max-width: 478px) {
   /* start of phone styles */
+
+
+  
+
+  header {
+    background-color: rgb(197, 201, 204);
   
   }
+
+  .logo-container h4 {
+    font-size: 1em;
+    text-align: left;
+    margin: 5px 8px;
+  }
+  
+  .logo-container {
+    max-width: 100%;
+    width: 478px;
+    float: left;
+  }
+
+  nav {
+  display: none;
+
+  }
+
+  .about-me {
+    max-width: 100%;
+    width: 478px;
+    display: block;
+    height: auto;
+  
+  }
+
+  .my-image {
+    max-width: 100%;
+    width: 478px;
+    display: block;
+    height: auto;
+  }
+
+  .article1 {
+    max-width: 100%;
+    width: 478px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .my-description {
+    max-width: 100%;
+    width: 425px;
+   
+    height: auto;
+    flex-direction: row;
+    margin: 20px auto 0 auto;
+    padding: 15px;
+  }
+
+  .my-description p {
+    
+    font-size: .8em;
+    
+    
+  }
+
+
+
+
+  }
+
