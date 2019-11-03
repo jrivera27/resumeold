@@ -345,13 +345,13 @@ i.fas.fa-mobile-alt.fa-4x {
   /* start of medium tablet styles */
   
   }
-  
+
+
+
+  /* for index.html */
    
-  @media screen and (max-width: 478px) {
+  @media screen and (max-width: 375px) {
   /* start of phone styles */
-
-
-  
 
   header {
     background-color: rgb(197, 201, 204);
@@ -366,7 +366,7 @@ i.fas.fa-mobile-alt.fa-4x {
   
   .logo-container {
     max-width: 100%;
-    width: 478px;
+    width: 375px;
     float: left;
   }
 
@@ -377,7 +377,7 @@ i.fas.fa-mobile-alt.fa-4x {
 
   .about-me {
     max-width: 100%;
-    width: 478px;
+    width: 375px;
     display: block;
     height: auto;
   
@@ -385,38 +385,121 @@ i.fas.fa-mobile-alt.fa-4x {
 
   .my-image {
     max-width: 100%;
-    width: 478px;
+    width: 375px;
     display: block;
     height: auto;
+    
+  }
+
+  .my-image img {
+    padding: 18px;
   }
 
   .article1 {
     max-width: 100%;
-    width: 478px;
+    width: 375px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   .my-description {
-    max-width: 100%;
-    width: 425px;
+    max-width: 350%;
+    width: 300px;
    
     height: auto;
     flex-direction: row;
-    margin: 20px auto 0 auto;
+    margin: 50px auto 0 auto;
     padding: 15px;
   }
 
   .my-description p {
-    
     font-size: .8em;
-    
-    
+  }
+
   }
 
 
+  /* for experience.html */
+   
+  @media screen and (max-width: 375px) {
+    /* start of phone styles */
+
+body, html {
+  max-width: 100%;
+}
+
+header {
+  max-width: 100%;
+  width: 100%;
+  background-color: rgb(197, 201, 204);
+    
+}
+
+.logo-container {
+  max-width: 100%;
+  width: 375px;
+  float: left;
+}
+  
+.logo-container h4 {
+  font-size: 1em;
+  text-align: left;
+  margin: 5px 8px;
+}
+
+.technical-experience {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+ 
+}
+
+.tech {
+  max-width: 100%;
+  background-color: white;
+  margin-top: -50px;
+  
+}
+
+.tech h4 {
+  width: 100%;
+}
+
+.technical-experience1 {
+  max-width: 100%;
+  width: 375px;
+  font-size: .8em;
+  line-height: 1.7em;
+  height: auto;
+  margin: 0px 10px 10px 0px;
+  
+}
+
+.technical-experience1 ul {
+  max-width: 100%;
+  width: 375px;
+  height: 567px;
+  
+}
 
 
-  }
 
+.technical-experience2 {
+  max-width: 100%;
+  width: 375px;
+  
+  font-size: .8em;
+  line-height: 1.7em;
+  
+  
+}
+
+.technical-experience2 ul {
+  height: 580px;
+}
+
+ul > li {
+  list-style-type: unset;
+}
