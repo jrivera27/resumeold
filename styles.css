@@ -484,8 +484,6 @@ header {
   
 }
 
-
-
 .technical-experience2 {
   max-width: 100%;
   width: 375px;
@@ -502,4 +500,46 @@ header {
 
 ul > li {
   list-style-type: unset;
+}
+
+
+
+/* for certifications.html */
+   
+@media screen and (max-width: 375px) {
+  /* start of phone styles */
+
+  .certifications {
+    max-width: 100%;
+    width: 375px;
+    flex-direction: column;
+    height: 800px;
+    justify-content: flex-start;
+  }
+
+  .cert-image1 {
+    max-width: 100%;
+    width: 250px;
+    border: 1px solid red;
+    margin: 25px auto;
+    padding: 50px;
+  }
+
+  .cert-image2 {
+    max-width: 100%;
+    width: 250px;
+    border: 1px solid red;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+
+  .cert-image3 {
+    max-width: 100%;
+    width: 250px;
+    border: 1px solid red;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
 }
