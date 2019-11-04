@@ -513,7 +513,7 @@ ul > li {
     max-width: 100%;
     width: 375px;
     flex-direction: column;
-    height: 800px;
+    height: 650px;
     justify-content: flex-start;
   }
 
@@ -538,5 +538,56 @@ ul > li {
     margin: 20px auto;
     padding: 20px;
   }
+
+}
+
+}
+
+/* for education.html */
+
+@media screen and (max-width: 375px) {
+  /* start of phone styles */
+
+header {
+  max-width: 100%;
+  width: 375px;
+}
+
+.edu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 80px auto;
+  height: 80px;
+  background-color: white;
+  max-width: 100%;
+  
+}
+
+.edu h4 {
+  width: 375px;
+  margin: 20px auto;
+}
+
+.my-education {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: -80px;
+  height: 700px;
+  font-size: 1.2em;
+  justify-content: left;
+}
+
+.education {
+  max-width: 100%;
+  
+}
+
+ul > li {
+  line-height: 2em;
+  padding-bottom: 15px;
+  list-style: none;
+}
 
 }
