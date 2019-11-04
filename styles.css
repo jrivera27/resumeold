@@ -147,25 +147,38 @@ nav .nav-links {
 /* end of about me section */
 
 /* Beggining of technical experience section */
-.tech h4 {
+
+.tech {
+  display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-top: 160px;
-  margin-bottom: 25px;
+  margin: 125px 0 25px 0;
+  border: 3px solid red;
 }
+
 
 .technical-experience {
   
   display: flex;
   flex-flow: column no-wrap;
   width: auto;
-  height: 750px;
+  height: 600px;
   font-size: 1.2em;
   background-color: rgb(197, 201, 204);
   line-height: 2em;
+  
 }
 
 
+
+.technical-experience1 {
+  border: 3px solid red;
+  width: 50%;
+}
+
+.technical-experience2 {
+  border: 3px solid green;
+  width: 50%;
+}
 
 
 .technical-experience1 ul {
@@ -175,6 +188,7 @@ nav .nav-links {
   align-items: baseline;
   margin: 10px;
   padding: 20px;
+  
 }
 
 .technical-experience2 ul {
@@ -475,7 +489,7 @@ header {
   height: 750px;
   margin: 0px 10px 0px 0px;
   background-color: rgb(197, 201, 204);
-  border: 3px solid red;
+  
 }
 
 .technical-experience1 ul {
@@ -490,7 +504,7 @@ header {
   width: 375px;
   font-size: .8em;
   line-height: 1.7em;
-  border: 3px solid green;
+  
 }
 
 .technical-experience2 ul {
