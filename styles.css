@@ -472,34 +472,36 @@ header {
   width: 375px;
   font-size: .8em;
   line-height: 1.7em;
-  height: auto;
-  margin: 0px 10px 10px 0px;
-  
+  height: 750px;
+  margin: 0px 10px 0px 0px;
+  background-color: rgb(197, 201, 204);
+  border: 3px solid red;
 }
 
 .technical-experience1 ul {
   max-width: 100%;
   width: 375px;
-  height: 567px;
+  height: 800px;
   
 }
 
 .technical-experience2 {
   max-width: 100%;
   width: 375px;
-  
   font-size: .8em;
   line-height: 1.7em;
-  
-  
+  border: 3px solid green;
 }
 
 .technical-experience2 ul {
-  height: 580px;
+  margin-top: 20px;
+  height: 800px;
+
 }
 
 ul > li {
   list-style-type: unset;
+
 }
 
 
